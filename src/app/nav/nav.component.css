@@ -1,0 +1,25 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #517983;
+    padding: 0 20px;
+}
+
+.nav-links{
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-link{
+    list-style: none;
+    padding: 5px;
+    margin: 5px;
+}
+
+.nav-link>a,
+.nav-link>a:focus{
+    text-decoration: none;
+    color: white;
+}
