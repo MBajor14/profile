@@ -9,6 +9,7 @@ import { ProfileComponent } from './profile/profile.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ProfileCardComponent } from './profile-card/profile-card.component';
 import { ProfileListComponent } from './profile-list/profile-list.component';
+import { ProfileListRowComponent } from './profile-list-row/profile-list-row.component';
 // import {MatTabsModule} from '@angular/material/tabs';
 
 @NgModule({
@@ -17,7 +18,8 @@ import { ProfileListComponent } from './profile-list/profile-list.component';
     NavComponent,
     ProfileComponent,
     ProfileCardComponent,
-    ProfileListComponent
+    ProfileListComponent,
+    ProfileListRowComponent
   ],
   imports: [
     BrowserModule,
