@@ -8,7 +8,6 @@ import { HttpClient } from '@angular/common/http';
   styleUrls: ['./app.component.css']//, ...styles.globals]
 })
 export class AppComponent {
-  title = 'profile';
 
   // constructor(private http: HttpClient){}
 

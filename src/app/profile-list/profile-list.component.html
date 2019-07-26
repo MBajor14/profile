@@ -1,0 +1,12 @@
+<div class="profile-list">
+
+        <app-profile-card 
+                *ngFor="let profile of profiles"
+                [name]="profile.name" 
+                [email]="profile.email" 
+                [username]="profile.username"
+                [phone]="profile.phone"
+                >
+        </app-profile-card>
+
+</div>

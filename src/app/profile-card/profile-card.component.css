@@ -1,0 +1,16 @@
+.profile-card{
+    flex: 1 1 auto;
+    margin: 0 auto;
+}
+
+.profile-card-attributes{
+    background-color: rgba(0,0,0,0.2);
+}
+
+.profile-card-attributes-list{
+    
+}
+
+.profile-card-attributes-list-item{
+    list-style: none;
+}
