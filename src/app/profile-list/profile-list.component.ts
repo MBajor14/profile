@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
+import { AppService } from '../app.service';
 
 @Component({
   selector: 'app-profile-list',
@@ -10,11 +10,12 @@ export class ProfileListComponent implements OnInit {
 
   private profiles: any
 
-  constructor(private http: HttpClient) { }
+  constructor(private appService: AppService) { }
 
   ngOnInit() {
-    this.http.get('https://jsonplaceholder.typicode.com/users')
+    this.appService.getUsers()
     .subscribe((response: any) => {
+      console.log(response);
       this.profiles = response;
     })
   }

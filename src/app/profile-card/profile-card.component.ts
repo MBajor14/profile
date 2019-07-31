@@ -1,4 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-profile-card',
@@ -7,15 +8,19 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class ProfileCardComponent implements OnInit {
 
+  @Input() id: number;
   @Input() name: string;
   @Input() email: string;
   @Input() username: string;
   @Input() phone: string;
 
-  constructor() { }
+  constructor(private router: Router) {  }
 
-  ngOnInit() {
-    
+  ngOnInit() {  }
+
+  onClick(){
+    this.router.navigate([`/profiles/${this.id}`]);
+    console.log('Profile Card clicked')
   }
 
 }

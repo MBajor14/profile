@@ -1,0 +1,15 @@
+<div *ngIf="user" class="profile">
+    <h3>PROFILE</h3>
+    <div class="profile-userDetails">
+        <app-attribute-field [field]="'Name'" [value]="user.name"></app-attribute-field>
+        <app-attribute-field [field]="'Username'" [value]="user.username"></app-attribute-field>
+        <app-attribute-field [field]="'Email'" [value]="user.email"></app-attribute-field>
+        <app-attribute-field [field]="'Phone'" [value]="user.phone"></app-attribute-field>
+    </div>
+    <div class="profile-address">
+
+    </div>
+    <div class="profile-company">
+
+    </div>
+</div>

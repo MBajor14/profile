@@ -1,11 +1,14 @@
 .profile-card{
-    flex: 1 1 50%;
+    min-width: 320px;
     margin: 10px;
     padding: 8px;
     border: 1px solid black;
     border-radius: 8px;
     box-shadow: 2px 2px 2px;
     background-color: rgba(0,0,0,0.2);
+}
+.profile-card:hover{
+    background-color: rgba(0,0,0,0.35);
 }
 
 .profile-card-attributes{

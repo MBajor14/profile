@@ -2,6 +2,7 @@
 
         <app-profile-card 
                 *ngFor="let profile of profiles"
+                [id]="profile.id"
                 [name]="profile.name" 
                 [email]="profile.email" 
                 [username]="profile.username"

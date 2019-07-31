@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import styles from '../config/styles'
-import { HttpClient } from '@angular/common/http';
+import styles from '../config/styles';
+import { RouterModule, Routes } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -9,9 +9,9 @@ import { HttpClient } from '@angular/common/http';
 })
 export class AppComponent {
 
-  // constructor(private http: HttpClient){}
+  constructor(){}
 
-  // ngOnInit(){
+  ngOnInit(){
 
-  // }
+  }
 }
