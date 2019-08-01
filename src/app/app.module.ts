@@ -5,14 +5,14 @@ import { RouterModule } from '@angular/router';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { NavComponent } from './nav/nav.component';
-import { ProfileComponent } from './profile/profile.component';
+import { NavComponent } from './components/nav/nav.component';
+import { ProfileComponent } from './components/profile/profile.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { ProfileCardComponent } from './profile-card/profile-card.component';
-import { ProfileListComponent } from './profile-list/profile-list.component';
-import { HomeComponent } from './home/home.component';
-import { NotFoundComponent } from './not-found/not-found.component';
-import { AttributeFieldComponent } from './attribute-field/attribute-field.component';
+import { ProfileCardComponent } from './components/profile-card/profile-card.component';
+import { ProfileListComponent } from './components/profile-list/profile-list.component';
+import { HomeComponent } from './components/home/home.component';
+import { NotFoundComponent } from './components/not-found/not-found.component';
+import { AttributeFieldComponent } from './components/attribute-field/attribute-field.component';
 // import {MatTabsModule} from '@angular/material/tabs';
 
 @NgModule({
